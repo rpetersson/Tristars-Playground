@@ -1,0 +1,26 @@
+{% extends "template.html" %}
+
+{% block content %}
+
+    <div id="news_input">
+    <ul>
+    <form method="post">
+        <li><textarea name="news_body" rows="20" cols="40"></textarea></li>
+        <li><input type="submit" name="news_form" value="submit"></li>
+    </form>
+
+    </ul>
+    </div>
+
+    <div id="show_news">
+
+    {% for i in news_data %}
+
+        <div id="news_data">{{ i[0] }}</div>
+
+    {% endfor %}
+
+
+    </div>
+
+{% endblock %}

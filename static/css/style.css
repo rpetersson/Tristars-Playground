@@ -1,0 +1,54 @@
+body {
+    font-family: "HP Simplified ME";
+    font-size: small;
+}
+
+.container {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    border: solid coral;
+}
+
+#header {
+    width: 1193px;
+    height: 100px;
+    border: crimson solid;
+    margin: 1px;
+}
+
+#menu {
+    float: left;
+    width: 200px;
+    height: 300px;
+    border: solid beige;
+    margin: 20px;
+}
+
+#content {
+    float: left;
+    width: 800px;
+    height: 400px;
+    border: cyan solid;
+    margin: 20px;
+}
+
+ul.pwd {
+    list-style-type: none
+}
+
+#news_input {
+    border: aquamarine solid;
+    float: left;
+}
+
+#show_news {
+    border: chocolate solid;
+    float: left;
+}
+
+#news_data {
+    border: darkgreen solid;
+    width: 420px;
+    height: 50px;
+}
